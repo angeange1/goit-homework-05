@@ -620,11 +620,13 @@ button:focus {
 .modal-close-button:hover {
   border: none;
   background-color: #404bbf;
+  fill: #ffffff;
 }
 
 .modal-close-button:focus {
   border: none;
   background-color: #404bbf;
+  fill: #ffffff;
 }
 
 .modal-close-button-icon {
@@ -654,11 +656,6 @@ button:focus {
   width: 360px;
 }
 
-contact-form-input:focus-within {
-  border: 1px solid #4d5ae5;
-  fill: #4d5ae5;
-}
-
 .contact-field-wrapper {
   width: 100%;
   margin-bottom: 8px;
@@ -668,7 +665,7 @@ contact-form-input:focus-within {
   display: block;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.48px;
   color: #8e8f99;
   margin-bottom: 4px;
@@ -687,7 +684,7 @@ contact-form-input:focus-within {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-form-input:focus .contact-input-icon {
+.contact-form-input:focus.contact-input-icon {
   fill: #4d5ae5;
 }
 
@@ -756,7 +753,7 @@ contact-form-input:focus-within {
   fill: transparent;
 }
 
-.contact-checkbox-wrapper input:checked .user-privacy-custom-checkbox {
+.contact-form-checkbox:checked.user-privacy-custom-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
