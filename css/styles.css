@@ -296,20 +296,28 @@ ol {
 .picture-description-wrapper > .section-item {
   text-align: center;
   margin-bottom: 8px;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 
 .picture-description-wrapper > .section-text {
   text-align: center;
+  margin-bottom: 8px;
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .social-networks-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-}
-
-.people .social-networks-list-item {
-  margin-top: 8px;
 }
 
 .social-networks-list-item {
@@ -400,6 +408,19 @@ ol {
 
 .portfolio-section .section-item {
   margin-bottom: 8px;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.portfolio-section .section-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .footer {
